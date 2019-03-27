@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Miriam Barros Portfólio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="../exercicio - boot/src/css/style.css">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+
+            <!-- logo ou nome do projeto -->
+            <a class="navbar-brand" href="#">Miriam Barros</a>
+
+            <!-- menu responsivo ou hamburguinho -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado"
+                aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- subnavegação -->
+            <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+                <!-- itens do menu -->
+                <ul class="navbar-nav mr-auto">
+                    <!-- cada link do menu -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Sobre mim</a>
+                    </li>
+                    <!-- cada link do menu -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Portfólio</a>
+                    </li>
+                    <!-- cada link do menu -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Orçamento</a>
+                    </li>
+                    <!-- cada link do menu -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="./pages/curriculo.html" target="blank">Currículo</a>
+                    </li>
+                    <!-- começa o menu dropdown -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Contato
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <!-- opções do menu dropdown -->
+                            <a class="dropdown-item" href="#">LinkedIn</a>
+                            <a class="dropdown-item" href="#">GitHub</a>
+                            <a class="dropdown-item" href="#">Instagram</a>
+                            <a class="dropdown-item" href="#">Facebook</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <section class="carousel">
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="src/assets/car-01.jpg" alt="Primeiro Slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="src/assets/car-02.jpg" alt="Segundo Slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="src/assets/car-03.jpg" alt="Terceiro Slide">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Próximo</span>
+            </a>
+        </div>
+    </section>
+    <section class="about">
+        <div class="container">
+            <h1 class="display-4 text-center">Sobre mim</h1>
+
+            <div class="text-center">
+                <img src="src/assets/002.jpg" class="rounded" alt="...">
+            </div>
+
+            <p class="text-justify">Ambitioni dedisse scripsisse iudicaretur. Cras mattis iudicium purus sit amet
+                fermentum.
+                Donec sed odio operae, eu vulputate felis rhoncus. Praeterea iter est quasdam res quas ex communi. At
+                nos
+                hinc posthac, sitientis piros Afros. Petierunt uti sibi concilium totius Galliae in diem certam
+                indicere.
+                Cras mattis iudicium purus sit amet fermentum.</p>
+        </div>
+
+
+    </section>
+
+    <section class="portfolio">
+        <div class="container">
+            <h1 class="display-4 text-center">Portfólio</h1>
+            <p class="text-justify">Ambitioni dedisse scripsisse iudicaretur. Cras mattis iudicium purus sit amet
+                fermentum.
+                Donec sed odio operae, eu vulputate felis rhoncus. Praeterea iter est quasdam res quas ex communi. At
+                nos
+                hinc posthac, sitientis piros Afros. Petierunt uti sibi concilium totius Galliae in diem certam
+                indicere.
+                Cras mattis iudicium purus sit amet fermentum.</p>
+            <div class="row d-flex justify-content-between">
+                <!-- início primeiro card -->
+                <div class="card col-lg-3" style="width: 18rem;">
+                    <img class="card-img-top" src="src/assets/card1.jpg" alt="Imagem de capa do card">
+                    <div class="card-body">
+                        <h5 class="card-title">Card 01</h5>
+                        <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer
+                            preencher o
+                            conteúdo do card.</p>
+                        <!-- Botão para acionar modal -->
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalExemplo">
+                            Visitar
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="modalExemplo" tabindex="-1" role="dialog"
+                            aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <!-- título do modal -->
+                                        <h5 class="modal-title" id="exampleModalLabel">Senai Infocast</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <!-- corpo de texto do modal -->
+                                    <div class="modal-body">
+                                        Ambitioni dedisse scripsisse iudicaretur. Cras mattis iudicium purus sit amet
+                                        fermentum.
+                                        Donec sed odio operae, eu vulputate felis rhoncus. Praeterea iter est quasdam
+                                        res
+                                        quas ex communi. At
+                                        nos
+                                        hinc posthac, sitientis piros Afros. Petierunt uti sibi concilium totius Galliae
+                                        in
+                                        diem certam
+                                        indicere.
+                                        Cras mattis iudicium purus sit amet fermentum.
+                                        <a href="https://www.google.com.br" target="blank">Visite</a>
+                                    </div>
+                                    <!-- botões do modal -->
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-dismiss="modal">Fechar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- final do primeiro card -->
+                <!-- início segundo card -->
+                <div class="card col-lg-3" style="width: 18rem;">
+                    <img class="card-img-top" src="src/assets/card1.jpg" alt="Imagem de capa do card">
+                    <div class="card-body">
+                        <h5 class="card-title">Card 01</h5>
+                        <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer
+                            preencher o
+                            conteúdo do card.</p>
+                        <!-- Botão para acionar modal -->
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalExemplo2">
+                            Visitar
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="modalExemplo2" tabindex="-1" role="dialog"
+                            aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <!-- título do modal -->
+                                        <h5 class="modal-title" id="exampleModalLabel">Senai Infocast</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <!-- corpo de texto do modal -->
+                                    <div class="modal-body">
+                                        Ambitioni dedisse scripsisse iudicaretur. Cras mattis iudicium purus sit amet
+                                        fermentum.
+                                        Donec sed odio operae, eu vulputate felis rhoncus. Praeterea iter est quasdam
+                                        res
+                                        quas ex communi. At
+                                        nos
+                                        hinc posthac, sitientis piros Afros. Petierunt uti sibi concilium totius Galliae
+                                        in
+                                        diem certam
+                                        indicere.
+                                        Cras mattis iudicium purus sit amet fermentum.
+                                        <a href="https://www.google.com.br" target="blank">Visite</a>
+                                    </div>
+                                    <!-- botões do modal -->
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-dismiss="modal">Fechar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- final do segundo card-->
+                <!-- início terceiro card -->
+                <div class="card col-lg-3" style="width: 18rem;">
+                    <img class="card-img-top" src="src/assets/card1.jpg" alt="Imagem de capa do card">
+                    <div class="card-body">
+                        <h5 class="card-title">Card 01</h5>
+                        <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer
+                            preencher o
+                            conteúdo do card.</p>
+                        <!-- Botão para acionar modal -->
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalExemplo3">
+                            Visitar
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="modalExemplo3" tabindex="-1" role="dialog"
+                            aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <!-- título do modal -->
+                                        <h5 class="modal-title" id="exampleModalLabel">Senai Infocast</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <!-- corpo de texto do modal -->
+                                    <div class="modal-body">
+                                        Ambitioni dedisse scripsisse iudicaretur. Cras mattis iudicium purus sit
+                                        amet
+                                        fermentum.
+                                        Donec sed odio operae, eu vulputate felis rhoncus. Praeterea iter est
+                                        quasdam res
+                                        quas ex communi. At
+                                        nos
+                                        hinc posthac, sitientis piros Afros. Petierunt uti sibi concilium totius
+                                        Galliae in
+                                        diem certam
+                                        indicere.
+                                        Cras mattis iudicium purus sit amet fermentum.
+                                        <a href="https://www.google.com.br" target="blank">Visite</a>
+                                    </div>
+                                    <!-- botões do modal -->
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-dismiss="modal">Fechar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- final do terceiro card -->
+            </div>
+
+        </div>
+    </section>
+
+    <section class="contact">
+        <div class="container">
+            <h1 class="display-4 text-center">Contato</h1>
+            <p class="text-center">Peça seu orçamento através do formulário abaixo. Te responderei o mais breve
+                possível! ;)</p>
+            <form>
+                <div class="form-group">
+                    <label for="formGroupExampleInput">Nome</label>
+                    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Digite seu nome">
+                </div>
+                <div class="form-group">
+                    <label for="formGroupExampleInput2">E-mail</label>
+                    <input type="text" class="form-control" id="formGroupExampleInput2"
+                        placeholder="Digite um e-mail válido">
+                </div>
+                <div class="form-group">
+                    <label for="formGroupExampleInput3">Telefone</label>
+                    <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="(xx)0000-0000">
+                </div>
+                <div class="form-group">
+                    <label for="formGroupExampleInput4">Mensagem</label>
+                    <textarea class="form-control" id="formGroupExampleInput2"
+                        placeholder="Em que posso ajudar?"></textarea>
+                </div>
+                <button type="submit" value="Submit" class="btn btn-primary">Enviar</button>
+
+            </form>
+        </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

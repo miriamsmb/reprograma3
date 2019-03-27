@@ -1,0 +1,29 @@
+p {
+    line-height:35px;
+}
+
+.status {
+    color:#007c8d;
+}
+
+.bg-1 {
+    background-color:#e3e3e3;
+    background-size:cover;
+}
+
+.bg-medium {
+    background-color:#d8d8d8;
+}
+
+.skills {
+    width:70px;
+    height:70px;
+}
+
+.mt-7 {
+    margin-top:70px;
+}
+
+.mt-9 {
+    margin-top:90px;
+}
